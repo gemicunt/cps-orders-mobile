@@ -7,7 +7,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <WebView 
-        source={{ uri: 'https://order.conventionphotography.com' }}
+        source={{ uri: 'https://convention.photos' }}
         style={styles.webview}
         startInLoadingState={true}
         allowsBackForwardNavigationGestures={true}
